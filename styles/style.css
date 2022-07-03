@@ -1,0 +1,106 @@
+/* font style link  */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600&family=Poppins:wght@400;500;700&display=swap');
+
+/* common utility */
+* {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* responsive football heading part */
+.top-banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #2D25A0;
+    height: 677px;
+}
+
+.heading-text h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+
+
+.btn-style {
+    background-color: #E02C6D;
+    font-size: 16px;
+    font-weight: 500;
+    width: 168px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.fa-solid.right-logo {
+    margin-left: 8px;
+}
+
+.heading-img img {
+    width: 556.01px;
+    height: 438px;
+    transition: transform 1s;
+
+}
+
+.heading-img:hover img {
+    transform: scale(1.2) rotate(360deg);
+    ;
+}
+
+/* blogs part */
+.blogs-part {
+    background: #ffffff;
+    margin-top: 70px;
+    margin-bottom: 165px;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin: auto;
+    /* border: 2px solid red; */
+    width: 1050px;
+}
+
+.blogs {
+    width: 300px;
+    height: 426px;
+    padding: 15px;
+
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    /* border: 2px solid rgb(11, 3, 247); */
+}
+
+.image img {
+
+    width: 300px;
+    height: 256px;
+
+
+
+
+}
+
+.blog-text {
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.blog-article {
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: 10px;
+}
