@@ -13,8 +13,10 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
     background: #2D25A0;
     height: 677px;
+
 }
 
 .heading-text h1 {
@@ -22,6 +24,7 @@
     font-weight: 700;
     color: #FFFFFF;
     margin-bottom: 27px;
+
 }
 
 
@@ -42,36 +45,98 @@
     margin-left: 8px;
 }
 
+
+
+.heading-img {
+    position: relative;
+
+    display: flex;
+}
+
+
+
 .heading-img img {
-    width: 556.01px;
-    height: 438px;
-    transition: transform 1s;
+    width: 600px;
+    /* border: 2px solid red; */
+    /* width: 556.01px;
+    height: 438px; */
+
 
 }
 
-.heading-img:hover img {
+
+
+
+.image-3 {
+
+    position: absolute;
+    top: 37px;
+    left: 22px;
+
+
+
+    z-index: 1;
+}
+
+
+
+.image-2 {
+
+
+    position: absolute;
+
+}
+
+.heading-img .image-2 {
+    transition: transform 1s;
+}
+
+.top-banner:hover .image-2 {
+    transform: rotate(45deg);
+
+}
+
+.heading-img .image-3 {
+    transition: transform 1s ease-out;
+}
+
+.top-banner:hover .image-3 {
+    transform: translate(-700px, -400px);
+
+}
+
+*/
+
+/* .heading-img:hover img {
     transform: scale(1.2) rotate(360deg);
     ;
-}
+} 
 
 /* blogs part */
 .blogs-part {
     background: #ffffff;
-    margin-top: 70px;
-    margin-bottom: 165px;
+
+
+
+
+
 }
 
 .blog {
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 27px;
     margin: auto;
+    margin-top: 70px;
+    margin-bottom: 165px;
     /* border: 2px solid red; */
     width: 1050px;
 }
 
 .blogs {
+
     width: 300px;
     height: 426px;
     padding: 15px;
@@ -96,6 +161,7 @@
     color: #18191F;
     margin-top: 16px;
     margin-bottom: 0;
+
 }
 
 .blog-article {
@@ -103,10 +169,12 @@
     font-size: 16px;
     color: #6C6C6C;
     margin-top: 10px;
+
 }
 
 /* All highlights style  */
 .highlights-part {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,4 +206,39 @@
     margin-left: 66px;
     width: 567px;
     height: 427px;
+}
+
+/* footer style  */
+.footer-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14px;
+    gap: 20px 0px;
+}
+
+.footer-img img {
+
+    width: 483.87px;
+    height: 110px;
+}
+
+/* .footer-icon {
+    border: 1px solid yellow;
+
+} */
+
+.fa-brands,
+.fa-solid.fa-basketball {
+
+    font-size: 17px;
+    background-color: #dddddd;
+    padding: 7px;
+    border-radius: 17px;
+
+
+
+    color: #969BAB;
+    margin-right: 14px;
 }
