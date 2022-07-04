@@ -101,7 +101,7 @@
 }
 
 .top-banner:hover .image-3 {
-    transform: translate(-700px, -400px);
+    transform: translate(-700px, -900px);
 
 }
 
@@ -241,4 +241,53 @@
 
     color: #969BAB;
     margin-right: 14px;
+}
+
+/* photo gallery */
+.photos-gallery {
+    background-image: url(https://cdn.wallpapersafari.com/54/61/nYztbX.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 700px;
+    margin-bottom: 50px;
+}
+
+
+.photos-gallery h1 {
+    text-align: center;
+    color: #b0abf6;
+    font-size: 50px;
+    padding-top: 50px;
+
+}
+
+.photo {
+
+    display: grid;
+    /* margin: 30px 50px; */
+    padding: 80px 80px;
+    padding-top: 0px;
+
+
+    grid-template-columns: repeat(4, 1fr);
+
+
+}
+
+.photo img {
+
+    transition: transform 0.4s;
+    border-radius: 70px;
+
+
+
+    width: 100%;
+}
+
+.photo img:hover {
+    transform: scale(1.2);
+
 }
