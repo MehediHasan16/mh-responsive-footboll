@@ -104,3 +104,38 @@
     color: #6C6C6C;
     margin-top: 10px;
 }
+
+/* All highlights style  */
+.highlights-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.highlight-detail {
+    width: 469px;
+    height: 309px;
+
+}
+
+.highlight-heading {
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0;
+    color: #0A0826;
+}
+
+.highlight-text {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 24pX;
+    color: #6C6C6C;
+}
+
+.highlight-img img {
+    margin-left: 66px;
+    width: 567px;
+    height: 427px;
+}
