@@ -280,14 +280,75 @@
 .photo img {
 
     transition: transform 0.4s;
-    border-radius: 70px;
-
-
-
     width: 100%;
 }
 
 .photo img:hover {
     transform: scale(1.2);
 
+}
+
+/* last post  */
+.last-post {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+
+}
+
+.post-part-1 {
+    margin-right: 50px;
+}
+
+.post-part-1,
+.post-part-2 {
+    padding: 15px;
+    box-shadow: 1px 6px 17px lightgrey;
+    margin-bottom: 50px;
+}
+
+.post-part-1>img,
+.post-part-2>img {
+    width: 100%;
+}
+
+.bottom-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-image-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-image-text img {
+    margin-right: 10px;
+}
+
+.bottom-icon {
+    color: rgb(184, 184, 184);
+    margin-right: 20px;
+}
+
+/* responsive style for mobile device */
+@media only screen and (max-width:688px) {
+    .container {}
+
+    .top-banner {
+        flex-direction: column;
+
+    }
+
+    .blogs-part,
+    .highlights-part,
+    .post,
+    .footer-part,
+    .photos-gallery {
+        display: none;
+    }
 }
