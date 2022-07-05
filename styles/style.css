@@ -341,14 +341,89 @@
 
     .top-banner {
         flex-direction: column;
+        height: 900px;
+    }
+
+    .heading-text h1 {
+        text-align: center;
+        font-size: 50px;
+        padding: 20px;
+    }
+
+    .btn-style {
+        margin: auto;
+    }
+
+    .heading-img img {
+        /* border: 1px solid rgb(39, 4, 218); */
+        width: 80%;
+    }
+
+    /* blog part */
+    .blog {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+
 
     }
 
-    .blogs-part,
-    .highlights-part,
-    .post,
-    .footer-part,
-    .photos-gallery {
-        display: none;
+    /* all highlight part */
+    .highlights-part {
+        flex-direction: column;
+
     }
+
+    .highlight-detail {
+        width: 100%;
+        /* border: 1px solid rgb(17, 0, 255); */
+
+    }
+
+    .highlight-text {
+
+        padding: 20px;
+    }
+
+    .highlight-heading {
+
+        margin: 0;
+        padding: 20px;
+
+
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .highlight-img img {
+
+        width: 300px;
+        height: 250px;
+        padding: 0px;
+        margin: 0px;
+
+
+    }
+
+    /* post part  */
+    .last-post {
+        flex-direction: column;
+
+    }
+
+    .post-part-1 {
+        margin: 0;
+    }
+
+    /* gallery  */
+    .photo {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    }
+
+    /* footer  */
+    .footer-img img {
+        width: 100%;
+    }
+
+
 }
