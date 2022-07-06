@@ -414,6 +414,11 @@
         margin: 0;
     }
 
+    .bottom-icon {
+        margin-right: 5px;
+        font-size: 13px;
+    }
+
     /* gallery  */
     .photo {
         grid-template-columns: repeat(2, 1fr);
