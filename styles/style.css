@@ -208,26 +208,8 @@
     height: 427px;
 }
 
-/* footer style  */
-.footer-part {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-right: 14px;
-    gap: 20px 0px;
-}
 
-.footer-img img {
 
-    width: 483.87px;
-    height: 110px;
-}
-
-/* .footer-icon {
-    border: 1px solid yellow;
-
-} */
 
 .fa-brands,
 .fa-solid.fa-basketball {
@@ -335,9 +317,27 @@
     margin-right: 20px;
 }
 
+/* footer style  */
+.footer-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14px;
+    gap: 20px 0px;
+}
+
+.footer-img img {
+
+
+    width: 483.87px;
+    height: 110px;
+}
+
+
 /* responsive style for mobile device */
 @media only screen and (max-width:688px) {
-    .container {}
+
 
     .top-banner {
         flex-direction: column;
@@ -354,9 +354,27 @@
         margin: auto;
     }
 
+
     .heading-img img {
         /* border: 1px solid rgb(39, 4, 218); */
         width: 80%;
+    }
+
+    .heading-img .image-1 {
+        width: 100%;
+
+
+    }
+
+    .image-3 {
+
+        position: absolute;
+        top: 17px;
+        left: 10px;
+
+
+
+
     }
 
     /* blog part */
@@ -427,6 +445,7 @@
 
     /* footer  */
     .footer-img img {
+
         width: 100%;
     }
 
